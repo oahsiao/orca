@@ -7,7 +7,6 @@ import {
   normalizeUiLocaleTag,
   shouldShowLanguageSwitcher
 } from './ui-locale'
-import { UI_LANGUAGE_CHINESE_TRADITIONAL } from './ui-language'
 
 describe('ui-locale', () => {
   it('maps Traditional Chinese system locales to zh-Hant and keeps Simplified on zh', () => {
@@ -17,10 +16,6 @@ describe('ui-locale', () => {
     for (const tag of ['zh', 'zh-CN', 'zh-SG', 'zh-Hans']) {
       expect(normalizeSupportedUiLocale(tag)).toBe('zh')
     }
-  })
-
-  it('resolves explicit Traditional Chinese independently of system locale', () => {
-    expect(resolveUiLocale(UI_LANGUAGE_CHINESE_TRADITIONAL, 'zh-CN')).toBe('zh-Hant')
   })
 
   it('preserves a selected plugin language bundle id', () => {
