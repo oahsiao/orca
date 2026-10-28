@@ -41,7 +41,7 @@ const UI_LANGUAGE_CHOICE_FALLBACKS: Record<BuiltInUiLanguage, string> = {
   [UI_LANGUAGE_SYSTEM]: 'System',
   [UI_LANGUAGE_ENGLISH]: 'English',
   [UI_LANGUAGE_CHINESE]: '中文（简体）',
-  [UI_LANGUAGE_CHINESE_TRADITIONAL]: '中文（繁體）',
+  [UI_LANGUAGE_CHINESE_TRADITIONAL]: '繁體中文（台灣）',
   [UI_LANGUAGE_KOREAN]: '한국어',
   [UI_LANGUAGE_JAPANESE]: '日本語',
   [UI_LANGUAGE_SPANISH]: 'Español',
