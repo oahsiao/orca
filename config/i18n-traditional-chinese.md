@@ -29,6 +29,14 @@ The catalog lives at `src/renderer/src/i18n/locales/zh-Hant.json` and is maintai
 | create / add / load / save     | 建立 / 新增 / 載入 / 儲存           |
 | run / launch / detect / build  | 執行 / 啟動 / 偵測 / 建置           |
 | row / column / cell            | 列 / 欄 / 儲存格                    |
+| skill / automation / workflow  | 技能 / 自動化 / 工作流程            |
+| review / diff / stash          | 審查 / 差異 / 儲藏                  |
+| sidebar / browser / preview    | 側邊欄 / 瀏覽器 / 預覽              |
+| usage / quota / dictation      | 用量 / 配額 / 聽寫                  |
+| shortcut / prompt / context    | 快速鍵 / 提示詞 / 上下文            |
+| access token / model tokens    | 權杖 / token                        |
+| credential / notification      | 憑證 / 通知                         |
+| thread / schedule / emulator   | 討論串 / 排程 / 模擬器              |
 
 ## Style
 
